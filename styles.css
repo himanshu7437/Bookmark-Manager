@@ -1,0 +1,103 @@
+/* General body and container styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling the main container */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Header styles */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input field styling */
+input[type="text"], button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #0056b3;
+}
+
+/* List styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Link styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Link hover effect */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Delete button styling */
+.delete-btn {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px; /* Reduced font size for delete button */
+    border-radius: 4px;
+}
+
+/* Delete button hover effect */
+.delete-btn:hover {
+    background: #c82333;
+}
+
+/* Icon styles */
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
